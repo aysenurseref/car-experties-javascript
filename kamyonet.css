@@ -1,0 +1,643 @@
+body{
+    font-size: 10px !important;
+}
+table{
+    font-size:13px;
+}
+table th{
+    padding: 10px;
+}
+table td{
+    padding: 4px;
+}
+.tdinput{
+    text-align:center;
+}
+
+.kamyonet{
+    background-image: url(kamyonet.png);
+    width:477px;
+    height:620px;
+
+    position: relative;
+} 
+
+.kamyonet .ontampon{
+    position: relative;
+    left: 146px;
+    top: -3px;
+}
+.kamyonet .ontamponboyali{
+    position: relative;
+    left: 146px;
+    top: -3px;
+}
+.kamyonet .ontampondegisen{
+    position: relative;
+    left: 145px;
+    top: -3px;
+}
+.kamyonet .ontamponorjinal{
+    position: relative;
+    left: 146px;
+    top: -3px;
+}
+.kamyonet .motorkaputu{
+    position: relative;
+    top: -21px;
+    left: 146px;
+}
+.kamyonet .motorkaputuorjinal{
+    position: relative;
+    top: -21px;
+    left: 146px;
+}
+.kamyonet .motorkaputudegisen{
+    position: relative;
+    top: -21px;
+    left: 146px;
+}
+.kamyonet .motorkaputuboyali{
+    position: relative;
+    top: -21px;
+    left: 146px;
+}
+.kamyonet .arabaust{
+    position: relative;
+    top: 12px;
+    left: 148px;
+}
+
+.kamyonet .arabaustorjinal{
+    position: relative;
+    top: 12px;
+    left: 148px;
+}
+.kamyonet .arabaustdegisen{
+    position: relative;
+    top: 12px;
+    left: 148px;
+}
+.kamyonet .arabaustboyali{
+    position: relative;
+    top: 12px;
+    left: 148px;
+}
+
+
+.kamyonet .sagoncamurluk{
+    position: relative;
+    top: -328px;
+    left: 330px;
+}
+
+.kamyonet .sagoncamurlukorjinal{
+    position: relative;
+    top: -328px;
+    left: 330px;
+}
+.kamyonet .sagoncamurlukboyali{
+    position: relative;
+    top: -328px;
+    left: 330px;
+}
+.kamyonet .sagoncamurlukdegisen{
+    position: relative;
+    top: -328px;
+    left: 330px;
+}
+
+.kamyonet .sagonkapi{
+    position: relative;
+    top: -253px;
+    left: 284px;
+}
+.kamyonet .sagonkapiorjinal{
+    position: relative;
+    top: -253px;
+    left: 284px;
+}
+.kamyonet .sagonkapiboyali{
+    position: relative;
+    top: -253px;
+    left: 284px;
+}
+.kamyonet .sagonkapidegisen{
+    position: relative;
+    top: -253px;
+    left: 284px;
+}
+
+.kamyonet .sagarkakapi{
+    position: relative;
+    top: -267px;
+    left: 283px;
+}
+.kamyonet .sagarkakapiorjinal{
+    position: relative;
+    top: -267px;
+    left: 283px;
+}
+.kamyonet .sagarkakapiboyali{
+    position: relative;
+    top: -267px;
+    left: 283px;
+}
+.kamyonet .sagarkakapidegisen{
+    position: relative;
+    top: -267px;
+    left: 283px;
+}
+
+.kamyonet .sagarkacamurluk{
+    position: relative;
+    top: -145px;
+    left: 335px;
+}
+.kamyonet .sagarkacamurlukorjinal{
+    position: relative;
+    top: -145px;
+    left: 335px;
+}
+.kamyonet .sagarkacamurlukboyali{
+    position: relative;
+    top: -145px;
+    left: 335px;
+}
+.kamyonet .sagarkacamurlukdegisen{
+    position: relative;
+    top: -145px;
+    left: 335px;
+}
+
+
+.kamyonet .soloncamurluk{
+    position: relative;
+    top: -655px;
+    left: -35px;
+}
+
+.kamyonet .soloncamurlukorjinal{
+    position: relative;
+    top: -655px;
+    left: -35px;
+}
+
+.kamyonet .soloncamurlukboyali{
+    position: relative;
+    top: -655px;
+    left: -35px;
+}
+
+.kamyonet .soloncamurlukdegisen{
+    position: relative;
+    top: -655px;
+    left: -35px;
+}
+
+.kamyonet .solonkapi{
+    position: relative;
+    top: -590px;
+    left: 11px;
+}
+.kamyonet .solonkapiorjinal{
+    position: relative;
+    top: -590px;
+    left: 11px;
+}
+.kamyonet .solonkapiboyali{
+    position: relative;
+    top: -590px;
+    left: 11px;
+}
+.kamyonet .solonkapidegisen{
+    position: relative;
+    top: -590px;
+    left: 11px;
+}
+
+.kamyonet .solarkakapi{
+    position: relative;
+    top: -605px;
+    left: 11px;
+}
+.kamyonet .solarkakapiorjinal{
+    position: relative;
+    top: -605px;
+    left: 11px;
+}
+.kamyonet .solarkakapiboyali{
+    position: relative;
+    top: -605px;
+    left: 11px;
+}
+.kamyonet .solarkakapidegisen{
+    position: relative;
+    top: -605px;
+    left: 11px;
+}
+
+.kamyonet .solarkacamurluk{
+    position: relative;
+    top: -478px;
+    left: -38px;
+}
+.kamyonet .solarkacamurlukorjinal{
+    position: relative;
+    top: -478px;
+    left: -38px;
+}
+.kamyonet .solarkacamurlukboyali{
+    position: relative;
+    top: -478px;
+    left: -38px;
+}
+.kamyonet .solarkacamurlukdegisen{
+    position: relative;
+    top: -478px;
+    left: -38px;
+}
+
+.kamyonet .arkakaput{
+    position: relative;
+    top: -677px;
+    left: 148px;
+}
+.kamyonet .arkakaputorjinal{
+    position: relative;
+    top: -677px;
+    left: 148px;
+}
+.kamyonet .arkakaputboyali{
+    position: relative;
+    top: -677px;
+    left: 148px;
+}
+.kamyonet .arkakaputdegisen{
+    position: relative;
+    top: -677px;
+    left: 148px;
+}
+
+.kamyonet .arkatampon{
+    position: relative;
+    left: 145px;
+    top: -690px;
+}
+.kamyonet .arkatamponorjinal{
+    position: relative;
+    left: 145px;
+    top: -690px;
+}
+.kamyonet .arkatamponboyali{
+    position: relative;
+    left: 145px;
+    top: -690px;
+}
+.kamyonet .arkatampondegisen{
+    position: relative;
+    left: 145px;
+    top: -690px;
+}
+
+.ontampon{
+    background-image:url(orjinal_parcalar_kamyonet.png) ;
+    background-position: 0 760px;
+    width: 180px;
+    height: 76px;
+    
+}
+.ontamponorjinal{
+    background-image:url(orjinal_parcalar_kamyonet.png) ;
+    background-position: 0 760px;
+    width: 180px;
+    height: 76px;
+    
+}
+
+.ontamponboyali{
+    background-image:url(boyali_parcalar_kamyonet.png) ;
+    background-position: 0 760px;
+    width: 180px;
+    height: 76px;
+    
+}
+.ontampondegisen{
+    background-image:url(degisen_parcalar_kamyonet.png) ;
+    background-position: 0 760px;
+    width: 180px;
+    height: 76px;
+    
+}
+
+
+
+.motorkaputu{
+    background-image:url(orjinal_parcalar_kamyonet.png) ;
+    background-position: 0 124px;
+    width: 180px;
+    height: 124px;
+
+
+  
+}
+
+.motorkaputuboyali{
+    background-image:url(boyali_parcalar_kamyonet.png) ;
+    background-position: 0 124px;
+    width: 180px;
+    height: 124px;
+}
+
+.motorkaputudegisen{
+    background-image:url(degisen_parcalar_kamyonet.png) ;
+    background-position: 0 124px;
+    width: 180px;
+    height: 124px;
+}
+
+.motorkaputuorjinal{
+    background-image:url(orjinal_parcalar_kamyonet.png) ;
+    background-position: 0 124px;
+    width: 180px;
+    height: 124px;
+}
+
+.arabaust{
+    background-image:url(orjinal_parcalar_kamyonet.png) ;
+    background-position: 0 990px;
+    width: 200px;
+    height: 148px;
+}
+.arabaustboyali{
+    background-image:url(boyali_parcalar_kamyonet.png) ;
+    background-position: 0 990px;
+    width: 200px;
+    height: 148px;
+}
+.arabaustdegisen{
+    background-image:url(degisen_parcalar_kamyonet.png) ;
+    background-position: 0 990px;
+    width: 200px;
+    height: 148px;
+}
+.arabaustorjinal{
+    background-image:url(orjinal_parcalar_kamyonet.png) ;
+    background-position: 0 990px;
+    width: 200px;
+    height: 148px;
+}
+
+.sagoncamurluk{
+    background-image:url(orjinal_parcalar_kamyonet.png) ;
+    background-position: 0 1227px;
+    width: 140px;
+    height: 70px;
+}
+.sagoncamurlukboyali{
+    background-image: url(boyali_parcalar_kamyonet.png);
+    background-position: 0 1227px;
+    width: 140px;
+    height: 70px;
+}
+.sagoncamurlukdegisen{
+    background-image: url(degisen_parcalar_kamyonet.png);
+    background-position: 0 1227px;
+    width: 140px;
+    height: 70px;
+}
+.sagoncamurlukorjinal{
+    background-image: url(orjinal_parcalar_kamyonet.png);
+    background-position: 0 1227px;
+    width: 140px;
+    height: 70px;
+}
+
+.sagonkapi{
+    background-image:url(orjinal_parcalar_kamyonet.png) ;
+    background-position: 0 393px;
+    width: 160px;
+    height: 105px;
+}
+.sagonkapiboyali{
+    background-image:url(boyali_parcalar_kamyonet.png) ;
+    background-position: 0 393px;
+    width: 160px;
+    height: 105px;
+}
+.sagonkapidegisen{
+    background-image:url(degisen_parcalar_kamyonet.png) ;
+    background-position: 0 393px;
+    width: 160px;
+    height: 105px;
+}
+.sagonkapiorjinal{
+    background-image:url(orjinal_parcalar_kamyonet.png) ;
+    background-position: 0 393px;
+    width: 160px;
+    height: 105px;
+}
+
+.sagarkakapi{
+    background-image:url(orjinal_parcalar_kamyonet.png) ;
+    background-position: 0 200px;
+    width: 180px;
+    height: 77px;
+}
+.sagarkakapidegisen{
+    background-image:url(degisen_parcalar_kamyonet.png) ;
+    background-position: 0 200px;
+    width: 180px;
+    height: 77px;
+}
+.sagarkakapiboyali{
+    background-image:url(boyali_parcalar_kamyonet.png) ;
+    background-position: 0 200px;
+    width: 180px;
+    height: 77px;
+}
+.sagarkakapiorjinal{
+    background-image:url(orjinal_parcalar_kamyonet.png) ;
+    background-position: 0 200px;
+    width: 180px;
+    height: 77px;
+}
+
+.sagarkacamurluk{
+    background-image: url(orjinal_parcalar_kamyonet.png);
+    background-position: 0 1073px;
+    width: 150px;
+    height: 85px;
+}
+.sagarkacamurlukdegisen{
+    background-image: url(degisen_parcalar_kamyonet.png);
+    background-position: 0 1073px;
+    width: 150px;
+    height: 85px;
+}
+.sagarkacamurlukboyali{
+    background-image: url(boyali_parcalar_kamyonet.png);
+    background-position: 0 1073px;
+    width: 150px;
+    height: 85px;
+
+}
+.sagarkacamurlukorjinal{
+    background-image: url(orjinal_parcalar_kamyonet.png);
+    background-position: 0 1073px;
+    width: 150px;
+    height: 85px;
+}
+
+.soloncamurluk{
+    background-image: url(orjinal_parcalar_kamyonet.png);
+    background-position: 0 1293px;
+    width: 150px;
+    height: 70px;
+}
+.soloncamurlukdegisen{
+    background-image: url(degisen_parcalar_kamyonet.png);
+    background-position: 0 1293px;
+    width: 150px;
+    height: 70px;
+}
+.soloncamurlukboyali{
+    background-image: url(boyali_parcalar_kamyonet.png);
+    background-position: 0 1293px;
+    width: 150px;
+    height: 70px;
+}
+.soloncamurlukorjinal{
+    background-image: url(orjinal_parcalar_kamyonet.png);
+    background-position: 0 1293px;
+    width: 150px;
+    height: 70px;
+}
+
+.solonkapi{
+    background-image:url(orjinal_parcalar_kamyonet.png) ;
+    background-position: 0px 490px;
+    width: 162px;
+    height: 105px;
+}
+.solonkapiboyali{
+    background-image:url(boyali_parcalar_kamyonet.png) ;
+    background-position: 0px 490px;
+    width: 162px;
+    height: 105px;
+}
+.solonkapidegisen{
+    background-image:url(degisen_parcalar_kamyonet.png) ;
+    background-position: 0px 490px;
+    width: 162px;
+    height: 105px;
+}
+.solonkapiorjinal{
+    background-image:url(orjinal_parcalar_kamyonet.png) ;
+    background-position: 0px 490px;
+    width: 162px;
+    height: 105px;
+}
+
+.solarkakapi{
+    background-image:url(orjinal_parcalar_kamyonet.png) ;
+    background-position: 0 286px;
+    width: 170px;
+    height: 77px;
+}
+.solarkakapidegisen{
+    background-image:url(degisen_parcalar_kamyonet.png) ;
+    background-position: 0 286px;
+    width: 170px;
+    height: 77px;
+}
+.solarkakapiboyali{
+    background-image:url(boyali_parcalar_kamyonet.png) ;
+    background-position: 0 286px;
+    width: 170px;
+    height: 77px;
+}
+.solarkakapiorjinal{
+    background-image:url(orjinal_parcalar_kamyonet.png) ;
+    background-position: 0 286px;
+    width: 170px;
+    height: 77px;
+}
+
+.solarkacamurluk{
+    background-image: url(orjinal_parcalar_kamyonet.png);
+    background-position: 0 1150px;
+    width: 150px;
+    height: 85px;
+}
+.solarkacamurlukdegisen{
+    background-image: url(degisen_parcalar_kamyonet.png);
+    background-position: 0 1150px;
+    width: 150px;
+    height: 85px;
+}
+.solarkacamurlukboyali{
+    background-image: url(boyali_parcalar_kamyonet.png);
+    background-position: 0 1150px;
+    width: 150px;
+    height: 85px;
+}
+.solarkacamurlukorjinal{
+    background-image: url(orjinal_parcalar_kamyonet.png);
+    background-position: 0 1150px;
+    width: 150px;
+    height: 85px;
+}
+
+.arkakaput{
+    background-image: url(orjinal_parcalar_kamyonet.png);
+    background-position: 0 685px;
+    width: 180px;
+    height: 200px;
+}
+.arkakaputboyali{
+    background-image: url(boyali_parcalar_kamyonet.png);
+    background-position: 0 685px;
+    width: 180px;
+    height: 200px;
+}
+.arkakaputdegisen{
+    background-image: url(degisen_parcalar_kamyonet.png);
+    background-position: 0 685px;
+    width: 180px;
+    height: 200px;
+}
+.arkakaputorjinal{
+    background-image: url(orjinal_parcalar_kamyonet.png);
+    background-position: 0 685px;
+    width: 180px;
+    height: 200px;
+}
+
+.arkatampon{
+    background-image: url(orjinal_parcalar_kamyonet.png);
+    background-position: 0 850px;
+    width: 180px;
+    height: 90px;
+}
+
+.arkatampondegisen{
+    background-image: url(degisen_parcalar_kamyonet.png);
+    background-position: 0 850px;
+    width: 180px;
+    height: 90px;
+}
+
+.arkatamponboyali{
+    background-image: url(boyali_parcalar_kamyonet.png);
+    background-position: 0 850px;
+    width: 180px;
+    height: 90px;
+}
+
+.arkatamponorjinal{
+    background-image: url(orjinal_parcalar_kamyonet.png);
+    background-position: 0 850px;
+    width: 180px;
+    height: 90px;
+}

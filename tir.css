@@ -1,0 +1,483 @@
+body{
+    font-size: 10px !important;
+}
+table{
+    font-size:13px;
+}
+table th{
+    padding: 10px;
+}
+table td{
+    padding: 4px;
+}
+.tdinput{
+    text-align:center;
+}
+
+.tir{
+    background-image: url(tır.png);
+    width:754px;
+    height:616px;
+
+    position: relative;
+} 
+
+.tir .ontampon{
+    position: relative;
+    left: 280px;
+    top: -18px;
+}
+.tir .ontamponboyali{
+    position: relative;
+    left: 280px;
+    top: -18px;
+}
+.tir .ontampondegisen{
+    position: relative;
+    left: 280px;
+    top: -18px;
+}
+.tir .ontamponorjinal{
+    position: relative;
+    left: 280px;
+    top: -18px;
+}
+.tir .motorkaputu{
+    position: relative;
+    top: -35px;
+    left: 280px;
+}
+.tir .motorkaputuorjinal{
+    position: relative;
+    top: -35px;
+    left: 280px;
+}
+.tir .motorkaputudegisen{
+    position: relative;
+    top: -35px;
+    left: 280px;
+}
+.tir .motorkaputuboyali{
+    position: relative;
+    top: -35px;
+    left: 280px;
+}
+
+
+
+.tir .sagoncamurluk{
+    position: relative;
+    top: -118px;
+    left: 599px;
+}
+
+.tir .sagoncamurlukorjinal{
+    position: relative;
+    top: -118px;
+    left: 599px;
+}
+.tir .sagoncamurlukboyali{
+    position: relative;
+    top: -118px;
+    left: 599px;
+}
+.tir .sagoncamurlukdegisen{
+    position: relative;
+    top: -118px;
+    left: 599px;
+}
+
+.tir .sagonkapi{
+    position: relative;
+    top: -189px;
+    left: 513px;
+}
+.tir .sagonkapiorjinal{
+    position: relative;
+    top: -189px;
+    left: 513px;
+}
+.tir .sagonkapiboyali{
+    position: relative;
+    top: -189px;
+    left: 513px;
+}
+.tir .sagonkapidegisen{
+    position: relative;
+    top: -189px;
+    left: 513px;
+}
+
+.tir .sagarkakapi{
+    position: relative;
+    top: -267px;
+    left: 283px;
+}
+.tir .sagarkakapiorjinal{
+    position: relative;
+    top: -267px;
+    left: 283px;
+}
+.tir .sagarkakapiboyali{
+    position: relative;
+    top: -267px;
+    left: 283px;
+}
+.tir .sagarkakapidegisen{
+    position: relative;
+    top: -267px;
+    left: 283px;
+}
+
+.tir .sagarkacamurluk{
+    position: relative;
+    top: -145px;
+    left: 335px;
+}
+.tir .sagarkacamurlukorjinal{
+    position: relative;
+    top: -145px;
+    left: 335px;
+}
+.tir .sagarkacamurlukboyali{
+    position: relative;
+    top: -145px;
+    left: 335px;
+}
+.tir .sagarkacamurlukdegisen{
+    position: relative;
+    top: -145px;
+    left: 335px;
+}
+
+
+.tir .soloncamurluk{
+    position: relative;
+    top: -310px;
+    left: -45px;
+}
+
+.tir .soloncamurlukorjinal{
+    position: relative;
+    top: -310px;
+    left: -45px;
+}
+
+.tir .soloncamurlukboyali{
+    position: relative;
+    top: -310px;
+    left: -45px;
+}
+
+.tir .soloncamurlukdegisen{
+    position: relative;
+    top: -310px;
+    left: -45px;
+}
+
+.tir .solonkapi{
+    position: relative;
+    top: -375px;
+    left: 60px;
+}
+.tir .solonkapiorjinal{
+    position: relative;
+    top: -375px;
+    left: 60px;
+}
+.tir .solonkapiboyali{
+    position: relative;
+    top: -375px;
+    left: 60px;
+}
+.tir .solonkapidegisen{
+    position: relative;
+    top: -375px;
+    left: 60px;
+}
+
+.tir .arkakaput{
+    position: relative;
+    top: -336px;
+    left: 279px;
+
+}
+.tir .arkakaputorjinal{
+    position: relative;
+    top: -336px;
+    left: 279px;
+
+}
+.tir .arkakaputboyali{
+    position: relative;
+    top: -336px;
+    left: 279px;
+
+}
+.tir .arkakaputdegisen{
+    position: relative;
+    top: -336px;
+    left: 279px;
+
+}
+
+.tir .arkatampon{
+    position: relative;
+    left: 281px;
+    top: -357px;
+}
+.tir .arkatamponorjinal{
+    position: relative;
+    left: 281px;
+    top: -357px;
+}
+.tir .arkatamponboyali{
+    position: relative;
+    left: 281px;
+    top: -357px;
+}
+.tir .arkatampondegisen{
+    position: relative;
+    left: 281px;
+    top: -357px;
+}
+
+.ontampon{
+    background-image:url(orjinal_parcalar_tir.png) ;
+    background-position: 0 578px;
+    width: 193px;
+    height: 80px;
+}
+.ontamponorjinal{
+    background-image:url(orjinal_parcalar_tir.png) ;
+    background-position: 0 578px;
+    width: 193px;
+    height: 80px;
+}
+
+.ontamponboyali{
+    background-image:url(boyali_parcalar_tir.png) ;
+    background-position: 0 578px;
+    width: 193px;
+    height: 80px;
+}
+.ontampondegisen{
+    background-image:url(degisen_parcalar_tir.png) ;
+    background-position: 0 578px;
+    width: 193px;
+    height: 80px;
+}
+    
+
+
+
+
+.motorkaputu{
+    background-image:url(orjinal_parcalar_tir.png) ;
+    background-position: 0 498px;
+    width: 193px;
+    height: 80px;
+
+
+  
+}
+
+.motorkaputuboyali{
+    background-image:url(boyali_parcalar_tir.png) ;
+    background-position: 0 498px;
+    width: 193px;
+    height: 80px;
+}
+
+.motorkaputudegisen{
+    background-image:url(degisen_parcalar_tir.png) ;
+    background-position: 0 498px;
+    width: 193px;
+    height: 80px;
+}
+
+.motorkaputuorjinal{
+    background-image:url(orjinal_parcalar_tir.png) ;
+    background-position: 0 498px;
+    width: 193px;
+    height: 80px;
+}
+
+.arabaust{
+    background-image:url(orjinal_parcalar_tir.png) ;
+    background-position: 0 577px;
+    width: 200px;
+    height: 86px;
+}
+.arabaustboyali{
+    background-image:url(boyali_parcalar_tir.png) ;
+    background-position: 0 577px;
+    width: 200px;
+    height: 86px;
+}
+.arabaustdegisen{
+    background-image:url(degisen_parcalar_tir.png) ;
+    background-position: 0 577px;
+    width: 200px;
+    height: 86px;
+}
+.arabaustorjinal{
+    background-image:url(orjinal_parcalar_tir.png) ;
+    background-position: 0 577px;
+    width: 200px;
+    height: 86px;
+}
+
+.sagoncamurluk{
+    background-image:url(orjinal_parcalar_tir.png) ;
+    background-position: 0px 851px;
+    width: 140px;
+    height: 98px;
+}
+.sagoncamurlukboyali{
+    background-image: url(boyali_parcalar_tir.png);
+    background-position: 0px 851px;
+    width: 140px;
+    height: 98px;
+}
+.sagoncamurlukdegisen{
+    background-image: url(degisen_parcalar_tir.png);
+    background-position: 0px 851px;
+    width: 140px;
+    height: 98px;
+}
+.sagoncamurlukorjinal{
+    background-image: url(orjinal_parcalar_tir.png);
+    background-position: 0px 851px;
+    width: 140px;
+    height: 98px;
+}
+
+.sagonkapi{
+    background-image:url(orjinal_parcalar_tir.png) ;
+    background-position: 0px 666px;
+    width: 161px;
+    height: 105px;
+}
+.sagonkapiboyali{
+    background-image:url(boyali_parcalar_tir.png) ;
+    background-position: 0px 666px;
+    width: 161px;
+    height: 105px;
+}
+.sagonkapidegisen{
+    background-image:url(degisen_parcalar_tir.png) ;
+    background-position: 0px 666px;
+    width: 161px;
+    height: 105px;
+}
+.sagonkapiorjinal{
+    background-image:url(orjinal_parcalar_tir.png) ;
+    background-position: 0px 666px;
+    width: 161px;
+    height: 105px;
+}
+.soloncamurluk{
+    background-image: url(orjinal_parcalar_tir.png);
+    background-position: 0px 918px;
+    width: 150px;
+    height: 70px;
+}
+.soloncamurlukdegisen{
+    background-image: url(degisen_parcalar_tir.png);
+    background-position: 0px 918px;
+    width: 150px;
+    height: 70px;
+}
+.soloncamurlukboyali{
+    background-image: url(boyali_parcalar_tir.png);
+    background-position: 0px 918px;
+    width: 150px;
+    height: 70px;
+}
+.soloncamurlukorjinal{
+    background-image: url(orjinal_parcalar_tir.png);
+    background-position: 0px 918px;
+    width: 150px;
+    height: 70px;
+}
+
+.solonkapi{
+    background-image:url(orjinal_parcalar_tir.png) ;
+    background-position: 0px 773px;
+    width: 153px;
+    height: 105px;
+}
+.solonkapiboyali{
+    background-image:url(boyali_parcalar_tir.png) ;
+    background-position: 0px 773px;
+    width: 153px;
+    height: 105px;
+}
+.solonkapidegisen{
+    background-image:url(degisen_parcalar_tir.png) ;
+    background-position: 0px 773px;
+    width: 153px;
+    height: 105px;
+}
+.solonkapiorjinal{
+    background-image:url(orjinal_parcalar_tir.png) ;
+    background-position: 0px 773px;
+    width: 153px;
+    height: 105px;
+}
+
+
+
+.arkakaput{
+    background-image: url(orjinal_parcalar_tir.png);
+    background-position: 0 424px;
+    width: 193px;
+    height: 350px;
+}
+.arkakaputboyali{
+    background-image: url(boyali_parcalar_tir.png);
+    background-position: 0 424px;
+    width: 193px;
+    height: 350px;
+}
+.arkakaputdegisen{
+    background-image: url(degisen_parcalar_tir.png);
+    background-position: 0 424px;
+    width: 193px;
+    height: 350px;
+}
+.arkakaputorjinal{
+    background-image: url(orjinal_parcalar_tir.png);
+    background-position: 0 424px;
+    width: 193px;
+    height: 350px
+}
+
+.arkatampon{
+    background-image: url(orjinal_parcalar_tir.png);
+    background-position: 0 85px;
+    width: 193px;
+    height: 85px;
+}
+
+.arkatampondegisen{
+    background-image: url(degisen_parcalar_tir.png);
+    background-position: 0 85px;
+    width: 193px;
+    height: 85px;
+}
+
+.arkatamponboyali{
+    background-image: url(boyali_parcalar_tir.png);
+    background-position: 0 85px;
+    width: 193px;
+    height: 85px;
+}
+
+.arkatamponorjinal{
+    background-image: url(orjinal_parcalar_tir.png);
+    background-position: 0 85px;
+    width: 193px;
+    height: 85px;
+}

@@ -1,0 +1,234 @@
+<html>
+    <head>
+            <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+            <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>   
+            <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> 
+<link href="car.css" rel="stylesheet"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+<div class="row">
+    <div class="col-md-5">
+        <div class="car">
+                <div onclick="durumdegistir('ontampon')" data-toggle="tooltip" title="Ön Tampon" id="ontampon" class="ontampon"></div>
+                <div onclick="durumdegistir('motorkaputu')" data-toggle="tooltip" title="Motor Kaputu" id="motorkaputu" class="motorkaputu"></div>
+                <div onclick="durumdegistir('arabaust')" data-toggle="tooltip" title="Tavan" id="arabaust" class="arabaust"></div>
+                <div onclick="durumdegistir('sagoncamurluk')" data-toggle="tooltip" title="Sağ Ön Çamurluk" id="sagoncamurluk" class="sagoncamurluk"></div>
+                <div onclick="durumdegistir('sagonkapi')" id="sagonkapi" data-toggle="tooltip" title="Sağ Ön Kapı" class="sagonkapi"></div>
+                <div onclick="durumdegistir('sagarkakapi')" id="sagarkakapi" data-toggle="tooltip" title="Sağ Arka Kapı" class="sagarkakapi"></div>
+                <div onclick="durumdegistir('sagarkacamurluk')" id="sagarkacamurluk" data-toggle="tooltip" title="Sağ Arka Çamurluk" class="sagarkacamurluk"></div>
+                <div onclick="durumdegistir('soloncamurluk')" id="soloncamurluk" data-toggle="tooltip" title="Sol Ön Çamurluk" class="soloncamurluk"></div>
+                <div onclick="durumdegistir('solonkapi')" id="solonkapi" data-toggle="tooltip" title="Sol Ön Kapı" class="solonkapi"></div>
+                <div onclick="durumdegistir('solarkakapi')" id="solarkakapi" data-toggle="tooltip" title="Sol Arka Kapı" class="solarkakapi"></div>
+                <div onclick="durumdegistir('solarkacamurluk')" id="solarkacamurluk" data-toggle="tooltip" title="Sol Arka Çamurluk" class="solarkacamurluk"></div>
+                <div onclick="durumdegistir('arkakaput')" id="arkakaput" data-toggle="tooltip" title="Arka Kaput" class="arkakaput"></div>
+                <div onclick="durumdegistir('arkatampon')" id="arkatampon" data-toggle="tooltip" title="Arka Tampon" class="arkatampon"></div>
+        </div>
+    </div>
+<div class="col-md-7" >
+   <table>
+       <thead>
+           <th></th>
+           <th>Orjinal</th>
+           <th>Boyalı</th>
+           <th>Değişen</th>
+       </thead>
+       <tbody>
+           <tr>
+               <td>Ön Tampon</td>
+               <td class="tdinput"><input id="ontamponorjinal" name="ontampon" checked="checked" type="radio" value="orjinal"/></td>
+               <td class="tdinput"><input id="ontamponboyali" name="ontampon" type="radio" value="boyali"/></td>
+               <td class="tdinput"><input id="ontampondegisen" name="ontampon" type="radio" value="degisen"/></td>
+           </tr>
+           <tr>
+                <td>Motor Kaputu</td>
+                <td class="tdinput"><input id="motorkaputuorjinal" name="motorkaputu" checked="checked"  type="radio" value="orjinal"/></td>
+                <td class="tdinput"><input id="motorkaputuboyali" name="motorkaputu" type="radio" value="boyali"/></td>
+                <td class="tdinput"><input id="motorkaputudegisen" name="motorkaputu" type="radio" value="degisen"/></td>
+            </tr>
+            <tr>
+                    <td>Tavan</td>
+                    <td class="tdinput"><input name="arabaust" id="arabaustorjinal" checked="checked"  type="radio" value="orjinal"/></td>
+                    <td class="tdinput"><input name="arabaust" id="arabaustboyali" type="radio" value="boyali"/></td>
+                    <td class="tdinput"><input name="arabaust" id="arabaustdegisen" type="radio" value="degisen"/></td>
+            </tr>
+            <tr>
+                    <td>Sağ Ön Çamurluk</td>
+                    <td class="tdinput"><input name="sagoncamurluk" id="sagoncamurlukorjinal" checked="checked"  type="radio" value="orjinal"/></td>
+                    <td class="tdinput"><input name="sagoncamurluk" id="sagoncamurlukboyali" type="radio" value="boyali"/></td>
+                    <td class="tdinput"><input name="sagoncamurluk" id="sagoncamurlukdegisen" type="radio" value="degisen"/></td>
+            </tr>
+            <tr>
+                    <td>Sağ Ön Kapı</td>
+                    <td class="tdinput"><input name="sagonkapi" type="radio" id="sagonkapiorjinal" checked="checked"  value="orjinal"/></td>
+                    <td class="tdinput"><input name="sagonkapi" type="radio" id="sagonkapiboyali" value="boyali"/></td>
+                    <td class="tdinput"><input name="sagonkapi" type="radio" id="sagonkapidegisen" value="degisen"/></td>
+            </tr>
+            <tr>
+                    <td>Sağ Arka Kapı</td>
+                    <td class="tdinput"><input name="sagarkakapi" type="radio" id="sagarkakapiorjinal" checked="checked"  value="orjinal"/></td>
+                    <td class="tdinput"><input name="sagarkakapi" type="radio" id="sagarkakapiboyali" value="boyali"/></td>
+                    <td class="tdinput"><input name="sagarkakapi" type="radio" id="sagarkakapidegisen" value="degisen"/></td>
+            </tr>
+            <tr>
+                    <td>Sağ Arka Çamurluk</td>
+                    <td class="tdinput"><input name="sagarkacamurluk" id="sagarkacamurlukorjinal" checked="checked"  type="radio" value="orjinal"/></td>
+                    <td class="tdinput"><input name="sagarkacamurluk" id="sagarkacamurlukboyali" type="radio" value="boyali"/></td>
+                    <td class="tdinput"><input name="sagarkacamurluk" id="sagarkacamurlukdegisen" type="radio" value="degisen"/></td>
+            </tr>
+            <tr>
+                    <td>Sol Ön Çamurluk</td>
+                    <td class="tdinput"><input name="soloncamurluk" id="soloncamurlukorjinal" checked="checked"  type="radio" value="orjinal"/></td>
+                    <td class="tdinput"><input name="soloncamurluk" id="soloncamurlukboyali" type="radio" value="boyali"/></td>
+                    <td class="tdinput"><input name="soloncamurluk" type="radio" id="soloncamurlukdegisen" value="degisen"/></td>
+            </tr>
+            <tr>
+                    <td>Sol Ön Kapı</td>
+                    <td class="tdinput"><input name="solonkapi" id="solonkapiorjinal" checked="checked"  type="radio" value="orjinal"/></td>
+                    <td class="tdinput"><input name="solonkapi" id="solonkapiboyali" type="radio" value="boyali"/></td>
+                    <td class="tdinput"><input name="solonkapi" id="solonkapidegisen" type="radio" value="degisen"/></td>
+            </tr>
+            <tr>
+                    <td>Sol Arka Kapı</td>
+                    <td class="tdinput"><input name="solarkakapi" id="solarkakapiorjinal" checked="checked"  type="radio" value="orjinal"/></td>
+                    <td class="tdinput"><input name="solarkakapi" id="solarkakapiboyali" type="radio" value="boyali"/></td>
+                    <td class="tdinput"><input name="solarkakapi" id="solarkakapidegisen" type="radio" value="degisen"/></td>
+            </tr>
+            <tr>
+                    <td>Sol Arka Çamurluk</td>
+                    <td class="tdinput"><input name="solarkacamurluk" id="solarkacamurlukorjinal" checked="checked"  type="radio" value="orjinal"/></td>
+                    <td class="tdinput"><input name="solarkacamurluk" id="solarkacamurlukboyali" type="radio" value="boyali"/></td>
+                    <td class="tdinput"><input name="solarkacamurluk" id="solarkacamurlukdegisen" type="radio" value="degisen"/></td>
+            </tr>
+            <tr>
+                    <td>Arka Tampon</td>
+                    <td class="tdinput"><input name="arkatampon" id="arkatamponorjinal" checked="checked"  type="radio" value="orjinal"/></td>
+                    <td class="tdinput"><input name="arkatampon" id="arkatamponboyali" type="radio" value="boyali"/></td>
+                    <td class="tdinput"><input name="arkatampon" id="arkatampondegisen" type="radio" value="degisen"/></td>
+            </tr>
+            <tr>
+                    <td>Arka Kaput</td>
+                    <td class="tdinput"><input name="arkakaput" id="arkakaputorjinal" checked="checked"  type="radio" value="orjinal"/></td>
+                    <td class="tdinput"><input name="arkakaput" id="arkakaputboyali" type="radio" value="boyali"/></td>
+                    <td class="tdinput"><input name="arkakaput" id="arkakaputdegisen" type="radio" value="degisen"/></td>
+            </tr>
+       </tbody>
+   </table>
+
+</div>
+
+</div>
+
+<script>
+    
+        $(function() {
+            $('input').change(function(){
+                className = $(this).attr("name");
+                $("#"+className).attr("class", className+$(this).val())
+            })
+        });
+
+        function durumdegistir(id){
+          
+           var name= id; 
+           console.log(name);
+           var classname=$("#"+name).attr('class'); 
+           console.log(classname);
+          if(classname==name+"orjinal" || classname==name ){ 
+              $("#"+name).attr('class',name+"boyali");
+              $("#"+name+"boyali").prop('checked', true);
+           }
+          else if(classname==name+"boyali" ){
+              $("#"+name).attr('class',name+"degisen");
+              $("#"+name+"degisen").prop('checked', true);
+              }
+          else if(classname==name+"degisen"  ){
+              $("#"+name).attr('class',name+"orjinal");
+              $("#"+name+"orjinal").prop('checked', true);
+              }
+        }
+        
+        $('[data-toggle="tooltip"]').tooltip();
+        // $('input[name="ontampon"]').change(function(){
+        //     var classname=$('input[name="ontampon"]:checked').val();
+        //     console.log(classname);
+        //     document.getElementById("ontampon").className="ontampon"+classname;
+        // })
+        
+        // $('input[name="motorkaputu"]').change(function(){
+        //     var classname=$('input[name="motorkaputu"]:checked').val();
+        //     console.log(classname);
+        //     document.getElementById("motorkaputu").className="motorkaputu"+classname;
+        // })
+        
+        // $('input[name="arabaust"]').change(function(){
+        //     console.log("Degişti");
+        //     var classname=$('input[name="arabaust"]:checked').val();
+        //     console.log(classname);
+        //     document.getElementById("arabaust").className="arabaust"+classname;
+        // })
+        // $('input[name="sagoncamurluk"]').change(function(){
+        //     console.log("Degişti");
+        //     var classname=$('input[name="sagoncamurluk"]:checked').val();
+        //     console.log(classname);
+        //     document.getElementById("sagoncamurluk").className="sagoncamurluk"+classname;
+        // })
+        // $('input[name="sagonkapi"]').change(function(){
+        //     console.log("Degişti");
+        //     var classname=$('input[name="sagonkapi"]:checked').val();
+        //     console.log(classname);
+        //     document.getElementById("sagonkapi").className="sagonkapi"+classname;
+        // })
+        // $('input[name="sagarkakapi"]').change(function(){
+        //     console.log("Degişti");
+        //     var classname=$('input[name="sagarkakapi"]:checked').val();
+        //     console.log(classname);
+        //     document.getElementById("sagarkakapi").className="sagarkakapi"+classname;
+        // })
+        // $('input[name="sagarkacamurluk"]').change(function(){
+        //     console.log("Degişti");
+        //     var classname=$('input[name="sagarkacamurluk"]:checked').val();
+        //     console.log(classname);
+        //     document.getElementById("sagarkacamurluk").className="sagarkacamurluk"+classname;
+        // })
+        // $('input[name="soloncamurluk"]').change(function(){
+        //     console.log("Degişti");
+        //     var classname=$('input[name="soloncamurluk"]:checked').val();
+        //     console.log(classname);
+        //     document.getElementById("soloncamurluk").className="soloncamurluk"+classname;
+        // })
+        
+        // $('input[name="solonkapi"]').change(function(){
+        //     console.log("Degişti");
+        //     var classname=$('input[name="solonkapi"]:checked').val();
+        //     console.log(classname);
+        //     document.getElementById("solonkapi").className="solonkapi"+classname;
+        // })
+        // $('input[name="solarkakapi"]').change(function(){
+        //     console.log("Degişti");
+        //     var classname=$('input[name="solarkakapi"]:checked').val();
+        //     console.log(classname);
+        //     document.getElementById("solarkakapi").className="solarkakapi"+classname;
+        // })
+        // $('input[name="solarkacamurluk"]').change(function(){
+        //     console.log("Degişti");
+        //     var classname=$('input[name="solarkacamurluk"]:checked').val();
+        //     console.log(classname);
+        //     document.getElementById("solarkacamurluk").className="solarkacamurluk"+classname;
+        // })
+        // $('input[name="arkatampon"]').change(function(){
+        //     console.log("Degişti");
+        //     var classname=$('input[name="arkatampon"]:checked').val();
+        //     console.log(classname);
+        //     document.getElementById("arkatampon").className="arkatampon"+classname;
+        // })
+        // $('input[name="arkakaput"]').change(function(){
+        //     console.log("Degişti");
+        //     var classname=$('input[name="arkakaput"]:checked').val();
+        //     console.log(classname);
+        //     document.getElementById("arkakaput").className="arkakaput"+classname;
+        // })
+        
+        </script>
+    </body>
+</html> 
